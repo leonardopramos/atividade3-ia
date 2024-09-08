@@ -1,0 +1,76 @@
+ID,Altura,Idade,Peso,IMC,Classificacao,Cluster_Hierarquico
+1,1.9,45,77,21.33,Normal,3
+2,1.94,26,56,14.88,Peso Baixo,3
+3,2.0,30,80,20.0,Normal,3
+4,2.1,34,78,17.71,Peso Baixo,3
+5,1.7,40,72,24.91,Normal,2
+6,1.95,19,67,17.63,Peso Baixo,3
+7,1.7,19,47,16.26,Peso Baixo,2
+8,1.78,28,65,20.51,Normal,3
+9,1.77,32,58,18.51,Normal,3
+10,1.8,35,87,26.85,Sobrepeso,3
+11,1.65,52,65,23.88,Normal,2
+12,1.7,60,90,31.14,Obesidade I,1
+13,1.6,30,102,39.84,Obesidade II,1
+14,1.8,36,130,40.12,Obesidade Morbida,1
+15,1.75,45,132,43.1,Obesidade Morbida,1
+16,1.75,25,55,17.96,Peso Baixo,3
+17,1.6,40,45,17.58,Peso Baixo,2
+18,1.85,22,60,17.54,Peso Baixo,3
+19,1.9,30,63,17.45,Peso Baixo,3
+20,1.7,28,48,16.61,Peso Baixo,2
+21,1.78,35,56,17.67,Peso Baixo,3
+22,1.65,29,45,16.53,Peso Baixo,2
+23,1.8,27,58,17.9,Peso Baixo,3
+24,1.68,33,50,17.72,Peso Baixo,2
+25,1.82,20,59,17.79,Peso Baixo,3
+26,1.75,32,68,22.2,Normal,3
+27,1.8,29,75,23.15,Normal,3
+28,1.65,37,60,22.04,Normal,2
+29,1.9,25,85,23.55,Normal,3
+30,1.7,34,64,22.15,Normal,2
+31,1.77,28,70,22.34,Normal,3
+32,1.68,40,62,21.97,Normal,2
+33,1.85,26,80,23.37,Normal,3
+34,1.6,45,58,22.66,Normal,2
+35,1.9,31,86,23.82,Normal,3
+36,1.75,38,81,26.45,Sobrepeso,3
+37,1.8,29,85,26.23,Sobrepeso,3
+38,1.65,42,72,26.45,Sobrepeso,2
+39,1.9,27,95,26.32,Sobrepeso,3
+40,1.7,36,78,26.99,Sobrepeso,2
+41,1.77,30,84,26.81,Sobrepeso,3
+42,1.68,39,76,26.93,Sobrepeso,2
+43,1.85,28,90,26.29,Sobrepeso,3
+44,1.6,47,68,26.56,Sobrepeso,2
+45,1.9,33,96,26.57,Sobrepeso,3
+46,1.75,35,95,31.02,Obesidade I,3
+47,1.8,40,100,30.86,Obesidade I,3
+48,1.65,50,90,33.06,Obesidade I,1
+49,1.9,45,110,30.45,Obesidade I,1
+50,1.7,38,95,32.87,Obesidade I,1
+51,1.77,52,105,33.54,Obesidade I,1
+52,1.68,60,95,33.67,Obesidade I,1
+53,1.85,48,115,33.57,Obesidade I,1
+54,1.6,55,90,35.16,Obesidade I,1
+55,1.9,37,120,33.24,Obesidade I,1
+56,1.75,43,110,35.92,Obesidade II,1
+57,1.8,39,115,35.49,Obesidade II,1
+58,1.65,47,100,36.73,Obesidade II,1
+59,1.9,44,130,35.92,Obesidade II,1
+60,1.7,50,105,36.33,Obesidade II,1
+61,1.77,51,120,38.29,Obesidade II,1
+62,1.68,58,110,39.0,Obesidade II,1
+63,1.85,46,130,37.96,Obesidade II,1
+64,1.6,53,100,39.06,Obesidade II,1
+65,1.9,41,135,37.36,Obesidade II,1
+66,1.75,48,130,42.45,Obesidade Morbida,1
+67,1.8,55,140,43.21,Obesidade Morbida,1
+68,1.65,60,120,44.08,Obesidade Morbida,1
+69,1.9,49,160,44.27,Obesidade Morbida,1
+70,1.7,58,130,44.98,Obesidade Morbida,1
+71,1.77,54,150,47.85,Obesidade Morbida,1
+72,1.68,62,140,49.61,Obesidade Morbida,1
+73,1.85,50,170,49.64,Obesidade Morbida,1
+74,1.6,65,125,48.83,Obesidade Morbida,1
+75,1.9,53,180,49.77,Obesidade Morbida,1
