@@ -1,38 +1,24 @@
-import pandas as pd 
+import pandas as pd
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
-import matplotlib.pyplot as plt
 
-# Carregar os dados
-data = pd.read_csv('dados.csv')
+dados = pd.read_csv('dados.csv')
 
-# Selecionar os atributos para clusterização
-X = data[['Altura', 'Peso', 'IMC']]
+atributos = dados[['Altura', 'Peso', 'IMC']]
 
-# Normalizar os dados
-scaler = StandardScaler()
-X_scaled = scaler.fit_transform(X)
+#Serve para padronizar os dados
+escalador = StandardScaler()
+atributos_padronizados = escalador.fit_transform(atributos)
 
-# Aplicar o método do cotovelo
-inertia = []
-k_range = range(1, 11)
-for k in k_range:
+inercias = []
+for k in range(1, 11):
     kmeans = KMeans(n_clusters=k, random_state=42)
-    kmeans.fit(X_scaled)
-    inertia.append(kmeans.inertia_)
+    kmeans.fit(atributos_padronizados)
+    inercias.append(kmeans.inertia_)
 
-# Plotar o gráfico do método do cotovelo
-plt.figure(figsize=(8, 5))
-plt.plot(k_range, inertia, marker='o')
-plt.xlabel('Número de Clusters (k)')
-plt.ylabel('Inertia')
-plt.title('Método do Cotovelo para Determinar k')
-plt.show()
+k_otimo = 3
 
-# Escolher o número de clusters com base no gráfico e aplicar k-Means
-optimal_k = 3  # Exemplo, escolha o valor baseado no gráfico
-kmeans = KMeans(n_clusters=optimal_k, random_state=42)
-data['Cluster'] = kmeans.fit_predict(X_scaled)
+kmeans_final = KMeans(n_clusters=k_otimo, random_state=42)
+dados['Cluster'] = kmeans_final.fit_predict(atributos_padronizados)
 
-# Visualizar os dados clusterizados
-print(data.head())
+print(dados.head())
